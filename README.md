@@ -133,7 +133,7 @@ git clone https://github.com/RafaelSouza707/RepositorioProjetoGSM.git
 Entre na pasta do projeto:
 
 ```bash
-cd RepositorioProjetoGSM
+cd pirataflix
 ```
 
 ### 2. Construir e iniciar os containers
@@ -220,7 +220,3 @@ docker compose up -d --build
 ```
 
 **Atenção:** o comando `docker compose down -v` também remove o volume do banco de dados, apagando os dados armazenados.
-
----
-
-**Projeto acadêmico — PirataFlix**
