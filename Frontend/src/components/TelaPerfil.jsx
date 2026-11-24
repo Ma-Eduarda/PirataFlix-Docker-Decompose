@@ -48,7 +48,7 @@ function TelaPerfil({ user }) {
       setError(null);
 
       try {
-        const res = await fetch(`http://localhost:5000/usuarios/${user.id}/assistidos`);
+        const res = await fetch(`/api/usuarios/${user.id}/assistidos`);
 
         if (!res.ok) {
           const errData = await res.json();
@@ -74,7 +74,7 @@ function TelaPerfil({ user }) {
 
       setLoading(true);
       try {
-        const res = await fetch(`http://localhost:5000/usuarios`);
+        const res = await fetch(`/api/usuarios`);
         const data = await res.json();
         setUsuarios(data);
       } catch (err) {
