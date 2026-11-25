@@ -127,7 +127,7 @@ Antes de executar o projeto, é necessário ter instalado:
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/RafaelSouza707/RepositorioProjetoGSM.git
+git clone https://github.com/Ma-Eduarda/PirataFlix-Docker-Decompose.git
 ```
 
 Entre na pasta do projeto:
